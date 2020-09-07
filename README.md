@@ -11,6 +11,7 @@ Execute the following commands on the CLI:
 git clone https://github.com/kabsurd/subway-public subway
 cd subway
 composer install
+cp .env.example .env
 ```
 
 ## Database
@@ -18,7 +19,7 @@ This project requires a database. This can be achieved in multiple ways. I build
 
 ### MySQL
 Create a MySQL database(_utfmb4_) on you local or remote server. 
-After creating the database, update the fields below so they match your settings.
+After creating the database, update the fields in the .env file so they match your settings.
 
 ```
 DB_CONNECTION=mysql
