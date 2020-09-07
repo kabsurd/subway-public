@@ -1,0 +1,36 @@
+form.button {
+  display: contents;
+}
+
+.btn-info {
+  color: white;
+}
+
+.custom-control-label::after, .custom-control-label::before {
+  display: none;
+}
+
+body {
+  padding-top: 25px;
+}
+
+@include media-breakpoint-down(xs) {
+  .overview {
+    h2 {
+      font-size: 3.5rem;
+    }
+
+    h3 {
+      font-size: 2.5rem;
+    }
+
+    h4 {
+      font-size: 2rem;
+    }
+
+    div.form-group {
+      font-size: 2rem;
+    }
+  }
+
+}
