@@ -48,6 +48,7 @@ To prepare the database, run the commands below. This will create the database t
 
 ```
 php artisan migrate --seed
+php artisan key:generate
 php artisan serve
 ```
 
